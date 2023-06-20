@@ -1,0 +1,11 @@
+<div>
+    <app-search (searchTextChanged)="onSearchTextChanged($event)"></app-search>
+    <app-note-add (noteAdded)="onNoteAdded($event)"></app-note-add>
+    
+    <div class="row m-2">
+        <app-note *ngFor="let note of notes" [note]="note" class="col-lg-2 card border-info text-center m-3 p-0"></app-note>
+    </div>    
+</div>
+
+<!-- [note] it is a property child component
+"note" it is a source property of parent component  -->

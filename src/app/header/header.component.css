@@ -1,0 +1,12 @@
+div{
+    background-color: blue;
+    color: azure;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+app-search {
+    margin-right: 20px;
+}

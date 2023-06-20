@@ -1,0 +1,7 @@
+<div id="note-input" class="p-2">
+    <h4 class="m-3">Add New Note</h4>
+    <input type="number" placeholder="Note id" required [(ngModel)]="note.id" class="m-1"><br/>
+    <input type="text" placeholder="Note Title" required [(ngModel)]="note.title" class="m-1"><br/>
+    <input type="text" placeholder="Content" required [(ngModel)]="note.content" class="m-1"><br/>
+    <button class="m-1" (click)="addNote()">Save</button>
+</div>
